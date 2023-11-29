@@ -1,0 +1,15 @@
+.notification-detail-container {
+  float: center;
+  max-width: 700px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 50px 50px 50px;
+  border-radius: 8px;
+  flex-direction: column; /* Đặt hướng của flex container là dọc */
+  align-items: flex-start; /* Căn phần tử theo trục dọc (theo bên trái) */
+  background-color: rgb(243, 200, 200);
+  border: 1px solid black;
+}
+
+

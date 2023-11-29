@@ -1,0 +1,43 @@
+.link {
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
+    animation-duration: 0.5s;
+  }
+  
+  .link:hover {
+    background-color: #ddd;
+  }
+  
+  .link b {
+    color: #000;
+  }
+
+  .link:hover {
+    background-color: #ddd;
+    animation-name: slideIn;
+  }
+  
+  /* Hiệu ứng khi rời khỏi trang */
+  .link:active {
+    animation-name: slideOut;
+  }
+
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideOut {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }

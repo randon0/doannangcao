@@ -1,0 +1,24 @@
+.container {
+  max-width: 700px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 20px; /* Giảm padding cho các thiết bị nhỏ hơn */
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+}
+
+/* Điều chỉnh cho các thiết bị có kích thước nhỏ hơn */
+@media screen and (max-width: 768px) {
+  .category-detail-container {
+    padding: 20px 10px; /* Giảm padding hơn cho các thiết bị di động */
+  }
+}
+
+/* Điều chỉnh cho iPad */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .category-detail-container {
+    max-width: 90%; /* Giảm max-width cho iPad để phù hợp hơn */
+  }
+}

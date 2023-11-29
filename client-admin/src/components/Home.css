@@ -1,0 +1,33 @@
+/* Home.css */
+
+/* Styles for the home page */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Hiện thị từ phía trên xuống */
+    height: 100vh;
+    padding-top: 50px; /* Khoảng cách từ phía trên xuống */
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .image-container {
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-container:hover {
+    transform: scale(1.05); /* Phóng to hình ảnh khi hover */
+  }
+  
+  .image-container img {
+    width: 200%;
+    border-radius: 10px;
+  }
+  

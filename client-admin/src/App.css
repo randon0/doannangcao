@@ -1,0 +1,121 @@
+div.inline {
+  display: inline-block;
+}
+figure.caption-right {
+  display: flex;
+  align-items: center;
+}
+.align-center {
+  width: fit-content;
+  margin: 0px auto;
+}
+
+.text-center {
+  text-align: center;
+}
+/* span.link {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+} */
+
+
+/* menu.css */
+/* div.border-bottom {
+  border-bottom: 3px solid rgb(0, 0, 0);
+  padding: 20px 0px 20px 0px;
+} */
+
+div.float-clear {
+  clear: both;
+}
+/* ul.menu {
+  margin: 0px;
+  padding: 10px;
+}
+li.menu {
+  display: inline;
+  margin-right: 20px;
+  text-transform: uppercase;
+} */
+form.search {
+  margin: 0px;
+}
+input.keyword {
+  width: 110px;
+}
+
+body {
+  background-color: whitesmoke; 
+  margin: 0; 
+  padding: 0; 
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #080808;
+  border-radius: 4px;
+  margin-top: 10px;
+  display: block; /* Để tránh khoảng trắng dư thừa */
+
+}
+
+input[type="file"] {
+  padding: 8px;
+  border: 1px solid #0c0a0a;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box; /* Đảm bảo kích thước bao gồm cả padding và border */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* CSS cho dropdown Category */
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  appearance: none; /* Ẩn giao diện mặc định của dropdown */
+  background-image: linear-gradient(45deg, transparent 50%, #ccc 50%), linear-gradient(135deg, #ccc 50%, transparent 50%); /* Tạo một icon giả lập */
+  background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px); /* Vị trí icon */
+  background-size: 5px 5px; /* Kích thước icon */
+  background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+}
+
+.label {
+  color: #08111a;
+  font-weight: bold;
+  font-size: 16px;
+  text-shadow: -2px -2px 0 #fff,  
+  2px -2px 0 #fff,
+  -2px 2px 0 #fff,
+  2px 2px 0 #fff;
+}
+
+/* Tăng độ đậm của chữ */
+.label-bold {
+  font-weight: bold;
+}
+
+.text-center {
+  width: 100%; /* Để nội dung rộng 100% */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+}
+
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}

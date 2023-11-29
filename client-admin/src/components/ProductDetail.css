@@ -1,0 +1,60 @@
+.product-detail-container {
+  max-width: 700px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 20px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+}
+
+
+  .product-detail-container h2 {
+    color: rgb(252, 252, 252)ded;
+  }
+  
+  .product-detail-container table {
+    width: 100%;
+  }
+  
+  .product-detail-container input[type="text"],
+  .product-detail-container input[type="file"],
+  .product-detail-container select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 5px 0;
+    border: 2px solid #080808;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .product-detail-container img {
+    display: block;
+    border: 3px solid #0c0505;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .product-detail-container {
+      max-width: 90%; /* Thay đổi độ rộng của container cho kích thước màn hình nhỏ hơn 768px */
+    }
+    
+    .product-detail-container img {
+      max-width: 100%; /* Đảm bảo hình ảnh điều chỉnh theo kích thước màn hình nhỏ hơn 768px */
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .product-detail-container {
+      padding: 20px; /* Điều chỉnh padding cho kích thước màn hình nhỏ hơn 576px */
+    }
+  }
+  
+  
+  

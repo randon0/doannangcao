@@ -1,0 +1,16 @@
+.vertical-menu {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .vertical-menu li {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .vertical-menu li:last-child {
+    border-bottom: none;
+  }

@@ -1,0 +1,37 @@
+/* ResetPW.css */
+.reset-align-center {
+    text-align: center;
+  }
+  
+  .reset-text-center {
+    margin-bottom: 20px;
+  }
+  
+  .reset-align-center table {
+    margin: 20px auto;
+    background-color: #000000;
+  }
+  
+  .reset-align-center input[type="email"],
+  .reset-align-center input[type="text"],
+  .reset-align-center input[type="password"] {
+    width: 250px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .reset-align-center input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .reset-align-center input[type="submit"]:hover {
+    background-color: #2980b9;
+  }
+  

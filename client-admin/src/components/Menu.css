@@ -1,0 +1,98 @@
+/* Navbar styles */
+.border-bottom {
+  border-bottom: 2px solid #ccc;
+  padding: 15px 0; /* Tăng giá trị padding để làm rộng hơn */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000; /* Màu nền cho navbar */
+  border-bottom: 1px solid rgb(253, 253, 253);
+  font-size: 1em;
+}
+
+/* List styles */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 0.9em;
+}
+
+.menu li {
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s ease-in-out;
+  border-bottom: 2px solid transparent;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.menu li a:hover {
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+
+.menu li a:active {
+  border-bottom: 2px solid #1d3853;
+  color: #ffffff;
+}
+
+/* CSS cho phần đăng xuất */
+.logout-link {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  background-color: rgb(185, 173, 173);
+  padding: 8px 15px;
+  border-radius: 4px;
+  margin-left: 15px;
+  font-size: 0.9em;
+}
+
+.logout-link:hover {
+  background-color: #ad3a3a;
+}
+
+.logout-link span {
+  margin-right: 5px;
+}
+
+/* Media queries cho responsive */
+@media screen and (max-width: 768px) {
+  .border-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px 0; /* Thay đổi padding để phù hợp với thiết bị có màn hình nhỏ hơn */
+  }
+
+  .menu {
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .menu li {
+    margin-bottom: 5px;
+  }
+
+  .menu li:last-child {
+    margin-bottom: 0;
+  }
+
+  .menu li a {
+    margin-right: 20px;
+  }
+}
